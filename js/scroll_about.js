@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
     window.addEventListener('scroll', function () {
         var win_pos = window.scrollY;
-        p1.style.top = win_pos * 0.35 + 'px';
+        p1.style.top = win_pos * 0.3 + 'px';
         p1.style.transition = '0s'
     })
 
