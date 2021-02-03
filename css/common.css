@@ -17,7 +17,9 @@ h2 {
 html {
     background: #000;
     color: #fff;
+    overflow: hidden;
 }
+
 
 ul,
 li {
@@ -48,7 +50,9 @@ li {
 html::-webkit-scrollbar {
     display: none;
 }
-
+a{text-decoration: none;}
+a:link { color: #fff; }
+a:visited { color: #fff; }
 /*
 header {
     height: 100vh;
@@ -182,6 +186,7 @@ header h2:hover .hover_2 {
     height: 40px;
     margin-right: 4%;
     margin-top: 30px;
+    overflow: hidden;
 }
 
 #menu span {
@@ -190,11 +195,26 @@ header h2:hover .hover_2 {
     width: 20px;
     height: 2px;
     background: #fff;
+    transition: .8s;
 }
 
 #menu span:nth-of-type(2) {
     top: 10px;
+    transition: .8s;
 }
+#menu span:nth-of-type(3) {
+    left: 40px;
+    transition: .8s;
+}
+
+#menu span:nth-of-type(4) {
+    top: 10px;
+    left: 40px;
+    transition: .8s;
+}
+
+
+
 
 
 #full_menu {
@@ -225,7 +245,7 @@ header h2:hover .hover_2 {
 #full_menu ul li {
     overflow: hidden;
     position: relative;
-    width: 650px;
+    width: 680px;
     transition.6s;
 }
 
@@ -233,45 +253,49 @@ header h2:hover .hover_2 {
     display: inline-block;
     transform: translateX(130%);
 }
-
+#full_menu ul li span a{
+    color:transparent;
+    -webkit-text-stroke: 2px #fff;
+    text-decoration: none;
+    
+}
+#full_menu ul li span:nth-of-type(2){
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    visibility: hidden;
+}
 /*js click active*/
 #full_menu.active ul li span {
     display: inline-block;
-    transform: translateX(0%);
+    transform: translateX(-1%);
     transition: .6s;
 }
+
 
 #full_menu.active_2 ul li span {
     display: inline-block;
-    transform: translateX(0%) translateY(-100%);
+    transform: translateX(-1%) translateY(-100%);
     transition: .6s;
 }
-
-#full_menu.active ul li span:after {
+#full_menu.active_2 ul li span:nth-of-type(2){
+    display:none;
+}
+#full_menu.active ul li span:nth-of-type(2) {
     position: absolute;
     color: transparent;
     -webkit-text-stroke: 2px #fff;
-    left: 0;
+    right:0;
     top: 100%;
     transition: .4s;
+    visibility: visible;
 }
+
 
 #full_menu.active ul li:hover span {
-    transform: translateY(-100%)
+    transform: translateY(-100%) translateX(-1%);
 }
 
 
-#full_menu.active ul li:nth-of-type(1) span:after {
-    content: 'WORK'
-}
-
-#full_menu.active ul li:nth-of-type(2) span:after {
-    content: 'ABOUT'
-}
-
-#full_menu.active ul li:nth-of-type(3) span:after {
-    content: 'CONTACT'
-}
 
 
 
@@ -346,6 +370,7 @@ header h2:hover .hover_2 {
 .main {
     display: inherit;
     text-align: center;
+    overflow: hidden;
 }
 
 .face_font {
@@ -646,6 +671,7 @@ header h2:hover .hover_2 {
 
 #about article > h2 {
     font-size: 80pt;
+    transition:.1s;
 }
 
 #about .about_1 > h2:nth-of-type(1) {

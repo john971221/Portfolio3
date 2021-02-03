@@ -5,32 +5,35 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link href="./css/common.css" type="text/css" rel="stylesheet">
+    <link href="./css/loading.css" type="text/css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/loading.js"></script>
+    <script src="./js/data.js"></script>
     <script src="./js/header.js"></script>
-    <script src="./js/scroll.js"></script>
+    <script src="./js/scroll_index.js"></script>
     <script src="./js/index.js"></script>
 
 
 </head>
 
 <body>
-    <!--
-    <header class="Rox">
-        <div id="nav">
-            <img src="./img/campus.png">
-            <ul>
-                <li><img src="./img/m1.png"></li>
-                <li><img src="./img/m2.png"></li>
-                <li><img src="./img/m3.png"></li>
-            </ul>
+
+    <div id="loading">
+        <div id="loading1">
+            <h2>黑</h2>
+            <h2>白</h2>
+            <h2>Make it</h2>
+            <h2>*Simple</h2>
         </div>
-    </header>
--->
-    <div id="test01"></div>
+    </div>
+
+
     <header>
-        <h2>*<span class="hover_1">Johann</span><span class="hover_2">요한</span></h2>
+        <h2>*<span class="hover_1">Johann</span><span class="hover_2"><a href="./index.html">요한</a></span></h2>
         <div id="menu">
+            <span></span>
+            <span></span>
             <span></span>
             <span></span>
         </div>
@@ -39,7 +42,7 @@
                 <p>Republic of Korea
                     <span>San 30-3, 981-60, Hanam-daero,
                         Hanam-city, Gyeonggi-do,</span>
-                    <a>Map</a>
+                    <a href="https://www.google.co.kr/maps/search/San+30-3,+981-60,+Hanam-daero,+Hanam-city,+Gyeonggi-do,/@37.5450711,127.1856525,17z/data=!3m1!4b1?hl=ko">Map</a>
                 </p>
             </div>
             <div class="e_mail">
@@ -49,12 +52,13 @@
             </div>
             <div class="Phone">
                 <p>Cell Phone
-                    <span>+82-10-9974-0577</span></p>
+                    <span>+82-10-9974-0577</span>
+                </p>
             </div>
             <ul class="active">
-                <li><span>WORK</span></li>
-                <li><span>ABOUT</span></li>
-                <li><span>CONTACT</span></li>
+                <li><span>WORK</span><span><a href="index.html">WORK</a></span></li>
+                <li><span>ABOUT</span><span><a href="about.html">ABOUT</a></span></li>
+                
             </ul>
         </nav>
     </header>
@@ -72,13 +76,13 @@
         <section id="work">
 
             <article class="pages">
-               <btn class="pages_back">
+                <btn class="pages_back">
                     <div class="circle">
-                       <span>Back</span>
+                        <span>Back</span>
                     </div>
-               </btn>
-                <section class="screen">
-
+                </btn>
+                <section class='screen'>
+                    <img>
                 </section>
 
                 <section class="txt">

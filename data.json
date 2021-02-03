@@ -1,0 +1,70 @@
+{
+    "contents":[
+        {
+            "number":"#1",
+            "banner":"",
+            "name":"<br>La casa de Lumina",
+            "detail":"첫 시험적 프로젝트.<br>JS가 거의 없이 CSS효과만 있는<br>초보적인 사진 전시 사이트.",
+            "full_head":"투박한 첫 시험작",
+            "full_detail":"Behance나 Pinterset같은 사진을 전시할 만한 사이트를 만들고 싶었습니다.<br>당시 JS나 API에 관한 지식이 없었기에 폰트와 CSS만으로 효과와 디자인에 포인트를 두었고,<br>구할 수 없던 갤러리 페이지의 앨범 커버는 포토샵을 이용해 직접 제작했습니다.",
+            "imgs":"",
+            "imgs_name":"",
+            "date":"2020.07~",
+            "client":"None",
+            "skills":"HTML<br>CSS",
+            "RWD":"1430px<br>480px",
+            "font_s":"Rox",
+            "font":[
+                "Roxborough CF"
+            ],
+            "color":[
+                "#000",
+                "#151515"
+            ]
+        },
+        {
+            "number":"#2",
+            "banner":"",
+            "name":"<br>Gurnsey Woollens",
+            "detail":"첫 시험적 프로젝트.<br>JS가 거의 없이 CSS효과만 있는<br>초보적인 사진 전시 사이트.",
+            "full_head":"투박한 첫 시험작",
+            "full_detail":"Behance나 Pinterset같은 사진을 전시할 만한 사이트를 만들고 싶었습니다.<br>당시 JS나 API에 관한 지식이 없었기에 폰트와 CSS만으로 효과와 디자인에 포인트를 두었고,<br>구할 수 없던 갤러리 페이지의 앨범 커버는 포토샵을 이용해 직접 제작했습니다.",
+            "imgs":"",
+            "imgs_name":"",
+            "date":"2020.07~",
+            "client":"None",
+            "skills":"HTML<br>CSS",
+            "RWD":"1430px<br>480px",
+            "font_s":"Rox",
+            "font":[
+                "Roxborough CF"
+            ],
+            "color":[
+                "#000",
+                "#151515"
+            ]
+        },
+        {
+            "number":"#2",
+            "banner":"",
+            "name":"<br>Gurnsey Woollens",
+            "detail":"첫 시험적 프로젝트.<br>JS가 거의 없이 CSS효과만 있는<br>초보적인 사진 전시 사이트.",
+            "full_head":"투박한 첫 시험작",
+            "full_detail":"Behance나 Pinterset같은 사진을 전시할 만한 사이트를 만들고 싶었습니다.<br>당시 JS나 API에 관한 지식이 없었기에 폰트와 CSS만으로 효과와 디자인에 포인트를 두었고,<br>구할 수 없던 갤러리 페이지의 앨범 커버는 포토샵을 이용해 직접 제작했습니다.",
+            "imgs":"",
+            "imgs_name":"",
+            "date":"2020.07~",
+            "client":"None",
+            "skills":"HTML<br>CSS",
+            "RWD":"1430px<br>480px",
+            "font_s":"Rox",
+            "font":[
+                "Roxborough CF"
+            ],
+            "color":[
+                "#000",
+                "#151515"
+            ]
+        }
+    ]
+}

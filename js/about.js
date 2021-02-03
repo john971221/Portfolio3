@@ -1,10 +1,9 @@
 window.addEventListener('DOMContentLoaded', function () {
-    var p1 = document.querySelector('.p1');
-
-    window.addEventListener('scroll', function () {
-        var win_pos = window.scrollY;
-        p1.style.top = win_pos * 0.3 + 'px';
-    })
+    setTimeout(function loadfont(){
+        $('.p1 h2 span').css({
+            transform:'translateY(0%)'
+        })
+    },100)
 
     var about = document.querySelector('#about');
     var about_height = document.querySelector('#about .about_1');
