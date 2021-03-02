@@ -1,6 +1,6 @@
 $.ajax({
     type: 'GET',
-    url: '../data.json', //이동할 부분(데이터 얻어올 곳) //Spring에서는 controller로 연결
+    url: '../../data.json', //이동할 부분(데이터 얻어올 곳) //Spring에서는 controller로 연결
     datatype: 'json',
     success: function (json) { //data
         //alert("ajax success"); //꼭 확인해야 한다. 
