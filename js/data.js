@@ -99,17 +99,28 @@ $.ajax({
         
         
         //스크린 클릭시 파랄랙스
-       var work = document.querySelector('#work .pages');
-        var f_cont = document.querySelector('#work .full_cont');
+        var work_pages = document.querySelectorAll('#work .pages');
+        var work = [work_pages];
+        var f_cont = document.querySelectorAll('#work .full_cont');
 
-        work.addEventListener('scroll', function () {
-            var work_pos = work.scrollTop;
-
-            f_cont.style.top = work_pos * -1 + 'px';
-        })
+//        work.addEventListener('scroll', function () {
+//            var work_pos = work.scrollTop;
+//
+//            f_cont.style.top = work_pos * -1 + 'px';
+//        })
+//        console.log(work)
+//        window.addEventListener('scroll', function(){
+//            
+//        })
+//        
+//        const click_fx = function(){
+//            
+//        }
+        
+        
 //        $('#work .pages').on('mousewheel',function(){
 //            var work_pos = work.scrollTop;
-//            console.log('ㅁ나양ㄹ허야허ㅚㅓㄴㅁㄹ')
+//            
 //            $('#work .full_cont').css({
 //                top: (work_pos * -1 )+ 'px'
 //            })

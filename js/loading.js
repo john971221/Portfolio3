@@ -11,7 +11,8 @@ window.addEventListener('DOMContentLoaded', function () {
     setTimeout(function(){
         $(lf).eq(1).addClass('active')
         $('#loading').css({
-            background:'#fff'
+            background:'#fff',
+            transition:'.2s'
         })
     },500)
         setTimeout(function(){
